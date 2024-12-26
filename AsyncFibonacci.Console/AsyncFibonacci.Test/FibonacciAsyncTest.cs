@@ -3,7 +3,7 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace AsyncFibonacci.Test
 {
-    public class FibonacciAsycTest
+    public class FibonacciAsyncTest
     {
         [Fact]
         public async Task CheckF0()

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace AsyncFibonacci.Console
 {
-    public class FibonacciNoAsync
+    public class FibonacciAwait
     {
-        public static long GetFibonacciNumber(long fibonacciNumber)
+        public static async Task<long> GetFibonacciNumberAwait(long fibonacciNumber)
         {
             if (fibonacciNumber < 0)
             {
@@ -21,11 +21,12 @@ namespace AsyncFibonacci.Console
             }
             else
             {
-                var result1 = GetFibonacciNumber(fibonacciNumber - 1);
-                var result2 = GetFibonacciNumber(fibonacciNumber - 2);
+                var result1 = await GetFibonacciNumberAwait(fibonacciNumber - 1);
+                var result2 = await GetFibonacciNumberAwait(fibonacciNumber - 2);
 
                 return result1 + result2;
             }
         }
+        
     }
 }

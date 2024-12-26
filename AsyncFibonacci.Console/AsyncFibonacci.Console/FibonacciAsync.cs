@@ -8,23 +8,22 @@ namespace AsyncFibonacci.Console
 {
     public class FibonacciAsync
     {
-        public static async Task<long> GetFibonacciNumberAsync(long fibonacciNumber)
+        public static Task<long> GetFibonacciNumberAsync(long fibonacciNumber)
         {
             if (fibonacciNumber < 0)
             {
-                //var item = await Task.FromResult(0);
-                return 0;
+                return Task.FromResult(0L);
             }
             else if (fibonacciNumber == 1)
             {
-                return 1;
+                return Task.FromResult(1L);
             }
             else
             {
-                var result1 = await GetFibonacciNumberAsync(fibonacciNumber - 1);
-                var result2 = await GetFibonacciNumberAsync(fibonacciNumber - 2);
+                var result1 = GetFibonacciNumberAsync(fibonacciNumber - 1).Result;
+                var result2 = GetFibonacciNumberAsync(fibonacciNumber - 2).Result;
 
-                return result1 + result2;
+                return Task.FromResult(result1 + result2);
             }
         }
     }
