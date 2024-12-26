@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/AsyncFibonacci.Console/.vs/AsyncFibonacci.Console
+/AsyncFibonacci.Console/AsyncFibonacci.Console/obj
+/AsyncFibonacci.Console/AsyncFibonacci.Test/obj
+/AsyncFibonacci.Console/AsyncFibonacci.Console/bin/Debug/net9.0
+/AsyncFibonacci.Console/AsyncFibonacci.Test/bin/Debug/net9.0
