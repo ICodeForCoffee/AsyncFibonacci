@@ -12,7 +12,6 @@ namespace AsyncFibonacci.Console
         {
             if (fibonacciNumber < 0)
             {
-                //var item = await Task.FromResult(0);
                 return 0;
             }
             else if (fibonacciNumber == 1)
