@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TaksAndThreads.Console\TaksAndThreads.Console.csproj" />
+    <ProjectReference Include="..\TasksAndThreads.Console\TasksAndThreads.Console.csproj" />
   </ItemGroup>
 
   <ItemGroup>
