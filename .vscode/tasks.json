@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "dotnet",
+			"task": "build c:/Git/TaskAndThreads-Demo/TaskAndThreads/TaskAndThreads.Console.csproj",
+			"file": "c:/Git/TaskAndThreads-Demo/TaskAndThreads/TaskAndThreads.Console.csproj",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "dotnet: build c:/Git/TaskAndThreads-Demo/TaskAndThreads/TaskAndThreads.Console.csproj"
+		}
+	]
+}
