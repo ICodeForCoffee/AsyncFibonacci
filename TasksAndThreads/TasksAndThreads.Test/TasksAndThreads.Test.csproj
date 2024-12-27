@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AsyncFibonacci.Console\AsyncFibonacci.Console.csproj" />
+    <ProjectReference Include="..\TaksAndThreads.Console\TaksAndThreads.Console.csproj" />
   </ItemGroup>
 
   <ItemGroup>
