@@ -2,10 +2,10 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/TasksAndThreads/.vs/*
-/TasksAndThreads/TasksAndThreads.Console/obj
-/TasksAndThreads/TasksAndThreads.Test/obj
-/TasksAndThreads/TasksAndThreads.Console/bin/Debug/net9.0
-/TasksAndThreads/TasksAndThreads.Test/bin/Debug/net9.0
-/TasksAndThreads/TasksAndThreads.Console/bin/Release/net9.0
-/TasksAndThreads/TasksAndThreads.Test/bin/Release/net9.0
+/.vs/*
+/TasksAndThreads.Console/obj
+/TasksAndThreads.Test/obj
+/TasksAndThreads.Console/bin/*
+/TasksAndThreads.Test/bin/*
+/TasksAndThreads.Console/*
+/TasksAndThreads.Test/bin/*
