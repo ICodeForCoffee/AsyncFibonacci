@@ -5,7 +5,14 @@
 /.vs/*
 /TasksAndThreads.Console/obj
 /TasksAndThreads.Test/obj
+<<<<<<< HEAD
 /TasksAndThreads.Console/bin/*
 /TasksAndThreads.Test/bin/*
 /TasksAndThreads.Console/*
 /TasksAndThreads.Test/bin/*
+=======
+/TasksAndThreads.Console/bin/Debug/net9.0
+/TasksAndThreads.Test/bin/Debug/net9.0
+/TasksAndThreads.Console/bin/Release/net9.0
+/TasksAndThreads.Test/bin/Release/net9.0
+>>>>>>> 5c067eec631acffaec7a249fb399b2e64f6ba92b
