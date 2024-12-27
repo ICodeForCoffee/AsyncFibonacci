@@ -26,5 +26,6 @@ namespace AsyncFibonacci.Console
                 return result1 + result2;
             }
         }
+
     }
 }
