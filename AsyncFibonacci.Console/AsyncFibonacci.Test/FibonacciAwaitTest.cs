@@ -10,14 +10,14 @@ namespace AsyncFibonacci.Test
     public class FibonacciAwaitTest
     {
         [Fact]
-        public async Task CheckF0()
+        public async Task CheckF00()
         {
             var result = await FibonacciAwait.GetFibonacciNumberAwait(0);
             Assert.Equal(0, result);
         }
 
         [Fact]
-        public async Task CheckF1()
+        public async Task CheckF01()
         {
             var result = await FibonacciAwait.GetFibonacciNumberAwait(1);
             Assert.Equal(1, result);
@@ -25,21 +25,21 @@ namespace AsyncFibonacci.Test
 
 
         [Fact]
-        public async Task CheckF2()
+        public async Task CheckF02()
         {
             var result = await FibonacciAwait.GetFibonacciNumberAwait(2);
             Assert.Equal(1, result);
         }
 
         [Fact]
-        public async Task CheckF3()
+        public async Task CheckF03()
         {
             var result = await FibonacciAwait.GetFibonacciNumberAwait(3);
             Assert.Equal(2, result);
         }
 
         [Fact]
-        public async Task CheckF5()
+        public async Task CheckF05()
         {
             var result = await FibonacciAwait.GetFibonacciNumberAwait(5);
             Assert.Equal(5, result);

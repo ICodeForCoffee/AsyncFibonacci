@@ -10,14 +10,14 @@ namespace AsyncFibonacci.Test
     public class FibonacciTest
     {
         [Fact]
-        public void CheckF0()
+        public void CheckF00()
         {
             var result = Fibonacci.GetFibonacciNumber(0);
             Assert.Equal(0, result);
         }
 
         [Fact]
-        public void CheckF1()
+        public void CheckF01()
         {
             var result = Fibonacci.GetFibonacciNumber(1);
             Assert.Equal(1, result);
@@ -25,21 +25,21 @@ namespace AsyncFibonacci.Test
 
 
         [Fact]
-        public void CheckF2()
+        public void CheckF02()
         {
             var result = Fibonacci.GetFibonacciNumber(2);
             Assert.Equal(1, result);
         }
 
         [Fact]
-        public void CheckF3()
+        public void CheckF03()
         {
             var result = Fibonacci.GetFibonacciNumber(3);
             Assert.Equal(2, result);
         }
 
         [Fact]
-        public void CheckF5()
+        public void CheckF05()
         {
             var result = Fibonacci.GetFibonacciNumber(5);
             Assert.Equal(5, result);
