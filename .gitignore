@@ -3,9 +3,7 @@
 ################################################################################
 
 /.vs/*
-/TasksAndThreads.Console/obj
-/TasksAndThreads.Test/obj
 /TasksAndThreads.Console/bin/*
+/TasksAndThreads.Console/obj/*
 /TasksAndThreads.Test/bin/*
-/TasksAndThreads.Console/*
-/TasksAndThrgit pueads.Test/bin/*
+/TasksAndThreads.Test/obj/*
