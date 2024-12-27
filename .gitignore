@@ -7,3 +7,5 @@
 /AsyncFibonacci.Console/AsyncFibonacci.Test/obj
 /AsyncFibonacci.Console/AsyncFibonacci.Console/bin/Debug/net9.0
 /AsyncFibonacci.Console/AsyncFibonacci.Test/bin/Debug/net9.0
+/AsyncFibonacci.Console/AsyncFibonacci.Console/bin/Release/net9.0
+/AsyncFibonacci.Console/AsyncFibonacci.Test/bin/Release/net9.0
